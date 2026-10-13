@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets — never commit these
+.env
+.env.*
+*.secret
+
+# Tool / editor junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+debug_*.html
+
+# NOTE: prices.json is intentionally NOT ignored — the workflow commits it.
